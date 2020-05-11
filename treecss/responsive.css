@@ -1,0 +1,175 @@
+@media screen and (min-width:480px) {
+
+/*
+progress-details {
+     float: none !important; 
+    width: 50%;
+    padding-top: 70px;
+}
+*/
+
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    background-color: #333;
+    color: #999;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+
+	/*****************************
+      TWO COLUMN LAYOUT
+    *****************************/
+/*
+    #primary{
+    	width: 50%;
+    	float: left;
+
+    }
+
+    #secondary {
+    	width: 40%;
+    	float:right;
+    } 
+*/
+    h2{
+    	font-size: 0.825em;
+    }
+
+    /*****************************
+      PAGE: PORTFOLIO
+    *****************************/
+
+    #gallery li {
+    	width: 28.3333%;
+    }
+     #gallery li:nth-child(4n){
+    	clear: both;
+    }
+
+
+    /*****************************
+      PAGE: ABOUT
+    *****************************/
+    .profile-photo {
+/*    	float: left;*/
+/*    	width: 0 5% 100px 0;*/
+    	padding:40px;
+    }
+   
+.skills_holder .column {
+    width: 319px;
+    /* float: left; */
+/*     margin: 0 29px; */
+        padding-left: -13px
+
+}
+@media screen and (min-width: 660px){
+    
+/*
+      #primary{
+    	width: 50%;
+    	float: left;
+
+    }
+
+    #secondary {
+    	width: 40%;
+    	float:right;
+    } 
+*/
+    
+    .progress-details {
+/*    float: none !important;*/
+/*    width: 50%;*/
+/*        padding-top: 70px;*/
+        margin: 0 auto;
+    }
+    
+
+    
+   .skills_holder .column {
+    width: 380px;
+    /* float: left; */
+    margin: 0 auto;
+    padding: 10px;
+}
+    
+/*
+    #wrapper {
+        width:none;
+    }
+*/
+
+    /*****************************
+      HEADER
+    *****************************/
+
+  nav{
+      background: none;
+/*      float: right;*/
+      font-size: 1.125em;
+/*      margin-right: 5%;*/
+/*      text-align: right;*/
+/*      width: 45%; */
+      
+
+  }
+
+  #logo {
+/*  	float: left;*/
+  	margin-left: 5%;
+/*  	text-align: left;*/
+  	width: 45 %;
+
+  }
+
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+
+	}
+	header{
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+}
+    
+    
+        @media screen and (min-width: 940px){
+            
+                #primary{
+    	width: 50%;
+    	float: left;
+
+    }
+
+    #secondary {
+    	width: 40%;
+    	float:right;
+    } 
+            
+            .myim{
+                width: 50%;
+                float: right;
+            }
+
+}
