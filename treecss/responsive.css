@@ -1,12 +1,5 @@
 @media screen and (min-width:480px) {
 
-/*
-progress-details {
-     float: none !important; 
-    width: 50%;
-    padding-top: 70px;
-}
-*/
 
 user agent stylesheet
 div {
@@ -35,18 +28,8 @@ html {
 	/*****************************
       TWO COLUMN LAYOUT
     *****************************/
-/*
-    #primary{
-    	width: 50%;
-    	float: left;
 
-    }
 
-    #secondary {
-    	width: 40%;
-    	float:right;
-    } 
-*/
     h2{
     	font-size: 0.825em;
     }
@@ -67,38 +50,20 @@ html {
       PAGE: ABOUT
     *****************************/
     .profile-photo {
-/*    	float: left;*/
-/*    	width: 0 5% 100px 0;*/
-    	padding:40px;
-    }
+   }
    
 .skills_holder .column {
     width: 319px;
-    /* float: left; */
-/*     margin: 0 29px; */
+
         padding-left: -13px
 
 }
 @media screen and (min-width: 660px){
     
-/*
-      #primary{
-    	width: 50%;
-    	float: left;
 
-    }
-
-    #secondary {
-    	width: 40%;
-    	float:right;
-    } 
-*/
     
     .progress-details {
-/*    float: none !important;*/
-/*    width: 50%;*/
-/*        padding-top: 70px;*/
-        margin: 0 auto;
+    margin: 0 auto;
     }
     
 
@@ -110,11 +75,6 @@ html {
     padding: 10px;
 }
     
-/*
-    #wrapper {
-        width:none;
-    }
-*/
 
     /*****************************
       HEADER
@@ -122,19 +82,16 @@ html {
 
   nav{
       background: none;
-/*      float: right;*/
       font-size: 1.125em;
-/*      margin-right: 5%;*/
-/*      text-align: right;*/
-/*      width: 45%; */
+
       
 
   }
 
   #logo {
-/*  	float: left;*/
+
   	margin-left: 5%;
-/*  	text-align: left;*/
+
   	width: 45 %;
 
   }
@@ -171,5 +128,12 @@ html {
                 width: 50%;
                 float: right;
             }
+            .profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-top-right-radius: 326px;
+    border-top-left-radius: 336px;
+}
 
 }
