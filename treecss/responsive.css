@@ -127,6 +127,7 @@ html {
             .myim{
                 width: 50%;
                 float: right;
+                text-align: left;
             }
             .profile-photo{
 	display: block;

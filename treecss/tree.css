@@ -265,9 +265,7 @@ nav a.selected  nav a:hover {
 	  clear: both;
   }
 
-  .myim{
-	  padding-top: 82px;
-  }
+  
 
 /*skills*/
 
@@ -443,6 +441,13 @@ animation-timing-function: ease-in-out;
          animation-name: moveInRight;
 animation-duration: 1s;
 animation-timing-function: ease-in-out;
+    text-align: left;
+    padding-top: 82px;
+}
+
+
+.text-center {
+    text-align: center;
 }
 @keyframes moveInLeft {
   0%{
