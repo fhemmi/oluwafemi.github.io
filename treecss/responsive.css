@@ -130,7 +130,7 @@ html {
             }
             .profile-photo{
 	display: block;
-	max-width: 150px;
+/*	max-width: 150px;*/
 	margin: 0 auto 30px;
 	border-top-right-radius: 326px;
     border-top-left-radius: 336px;
