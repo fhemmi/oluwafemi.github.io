@@ -446,7 +446,7 @@ animation-timing-function: ease-in-out;
 }
 
 
-.text-center {
+.align-center {
     text-align: center;
 }
 @keyframes moveInLeft {
