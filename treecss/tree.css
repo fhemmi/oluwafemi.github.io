@@ -372,7 +372,16 @@ animation-timing-function: ease-in-out;
     padding-top: 82px;
 }
 
+.slideleft h2 {
+    color:#999;
+    font-weight: 800;
+    
+}
 
+.progress-details h2 {
+    color: #999;
+    font-weight: 800;
+}
 .align-center {
     text-align: center;
 }
