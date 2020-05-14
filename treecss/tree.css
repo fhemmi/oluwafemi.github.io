@@ -16,7 +16,7 @@ body{
  content: "";
  width: 100px;
  margin: 0 auto;
- margin-top: 30px; }
+ margin-top: 20px; }
 
 #wrapper{
 	max-width: 940px;
@@ -327,22 +327,7 @@ main .skills_holder h2{text-align: left;margin: 0 0 40px;}
 }
 
 
-/*IONICONS*/
-/*
-.ion-social-facebook {
-    padding-right: 10px;
-}
-.ion-social-email {
-    padding-right: 10px;
-}
 
-.ion-social-twitter {
-    padding-right: 10px;
-}
-.ion-social-github {
-    padding-right: 10px;
-}
-*/
 .icon-small {
     padding-right: 10px;
 }
