@@ -116,7 +116,11 @@ html {
     	float: left;
 
     }
-
+            
+            .primary{
+                width: 40%;
+    	float: left;
+            }
     #secondary {
     	width: 40%;
     	float:right;
@@ -129,7 +133,7 @@ html {
             }
             .profile-photo{
 	display: block;
-/*	max-width: 150px;*/
+/*	max-width: 350px;*/
 	margin: 0 auto 30px;
 	border-top-right-radius: 326px;
     border-top-left-radius: 336px;
