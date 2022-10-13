@@ -4,7 +4,8 @@
 **************************/
 body{
 	/* font-family: 'open sans' 'sans-serif'; */
-	font-family: 'Montserrat', sans-serif;;
+	font-family: 'Montserrat', sans-serif;
+	color: #0b0b2d !important;
 }
 
 
@@ -250,7 +251,7 @@ nav a.selected  nav a:hover {
 	  clear: both;
   }
 
-  
+
 
 /*skills*/
 
@@ -384,7 +385,7 @@ animation-timing-function: ease-in-out;
 .slideleft h2 {
     color:#999;
     font-weight: 800;
-    
+
 }
 
 .progress-details h2 {
